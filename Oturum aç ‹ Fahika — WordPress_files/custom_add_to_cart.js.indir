@@ -1,0 +1,19 @@
+let btn;
+document.addEventListener("DOMContentLoaded",function(){
+btn=document.querySelector("button[name='add-to-cart']");
+// btn.style.display="none";
+
+btn.addEventListener("click",function(event){
+    event.preventDefault();
+
+    window.location.href="https://api.whatsapp.com/send/?phone=5326749755&text=Merhaba%2C+ürün+hakkında+bilgi+almak+istiyorum.&type=phone_number&app_absent=0";
+   
+    });
+ btn.innerHTML="₺ Satın Al";
+ 
+ 
+ const siblingDiv=btn.previousElementSibling;
+
+ 
+ siblingDiv.innerHTML="";
+})
