@@ -16,7 +16,6 @@ services:
       MYSQL_PASSWORD: Erenemir1comehacker
     volumes:
       - dbdata:/var/lib/mysql
-      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
   phpmyadmin:
     depends_on:
       - db
