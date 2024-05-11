@@ -7,7 +7,7 @@ services:
     volumes:
       - .:/var/www/html/
   db:
-    image: mysql:latest
+    image: mysql:5.5
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: mysqlrootpass_Erenemir1comehacker
