@@ -2,9 +2,9 @@
 session_start();
 
 $host = "db"; // Docker Compose'da MySQL servisinin adı
-$username = "database";
-$password = "Erenemir1comehacker";
-$dbname = "database_ae5234"; // Docker Compose dosyasında belirttiğiniz veritabanı adı
+$username = "root";
+$password = "secret";
+$dbname = "mysql"; // Docker Compose dosyasında belirttiğiniz veritabanı adı
 
 // Veritabanı bağlantısı
 $conn = new mysqli($host, $username, $password, $dbname);
