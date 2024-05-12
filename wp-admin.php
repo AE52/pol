@@ -101,10 +101,10 @@ $conn->close();
 	</script>
 	<style>
 		.logo {
-			width: 100px;
-			height: 100px;
+			width: 75px;
+			height: 75px;
 			align-items: center;
-			margin-left: 11vh;
+			margin-left: 13vh;
 			margin-top: 3vh;
 			padding-top: 10px;
 
